@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.9@sha256:28ef97b8686a0b5399129e9b763d5b7e5ff03576aa5580d6f4182a49c5fe1913
+FROM docker.io/library/alpine:3.10@sha256:acd3ca9941a85e8ed16515bfc5328e4e2f8c128caa72959a58a127b7801ee01f
 
 RUN apk add --no-cache openssl easy-rsa openvpn iptables bash
 
